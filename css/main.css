@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/*預設歸零***********************/
+img,ul,ol,p,li,h1,h2,h3,h4,h5,h6,th,b,input,select {font-family:"Helvetica Neue",Arial,"Heiti TC","LiHei Pro","微軟正黑體","Microsoft Jhenghei",sans-serif; margin: 0px; padding: 0px; list-style-type: none; font-weight: normal;font-size: 100%;border:0px;}
+a {text-decoration: none;}
+
+/*反白**************************/
+body::selection, a::selection, iframe::selection, div::selection, span::selection, img::selection, ul::selection, ol::selection, p::selection, li::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, input::selection {
+color:#FFF; background-color:#FC0; font-family:}
+div, li{font-family:"Helvetica Neue",Arial,"Heiti TC","LiHei Pro","微軟正黑體","Microsoft Jhenghei",sans-serif; }
+img{ width:100%}
+body {margin:0px; padding:0px; font-size: 14px; -ms-overflow-style: scrollbar; }
+html, body { font-family: 'Nunito Sans', sans-serif; color: #333; font-size: 16px;}
+html { box-sizing: border-box;}
+ul { margin:0; padding:0; text-decoration:none; list-style:none;}
+li { padding:0;	margin:0;}
+p { line-height: 1.6; max-width: 50em;}
+button, input {  font-family:inherit;  font-size: 1rem;  outline: none;}
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/**符合i phoneX手機邊界**/
+.container {
+    padding-top: constant(safe-area-inset-top);
+    padding-right: constant(safe-area-inset-right);
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-left: constant(safe-area-inset-left);
+}
+.zoom-in {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+.zoom-in:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+}
+.warpper { float:left; width:100%; margin:0 auto; padding:0 0 0 0; background-color: #231f20; }
+.warpper .top_bar { width:100%; margin:0; position:fixed; z-index:1;}
+.warpper .main_picture { width:100%; margin:9% 0% 0% 0%;}
+.warpper .video1 {width: 70%; margin:0 15%; padding: 3% 0% 3% 0%; display: flex; flex-wrap: nowrap; justify-content: center;}
+.warpper .video2 {width: 70%; margin:0 15%; padding: 3% 0% 2% 0%; display: flex; flex-wrap: nowrap; justify-content: center;}
+.warpper .video3 {width: 70%; margin:0 15%; padding: 0% 0% 3% 0%; display: flex; flex-wrap: nowrap; justify-content: center;}
+.warpper .spokesman { width:100%;}
+.warpper .introduce { width:100%;}
+.warpper .newspaper { float:left; width:100%; margin:0 0 0 0; padding:0 0 0 0; background:url(../images/newspaper_bg.jpg) top center no-repeat; background-size:100% auto;}
+.warpper .newspaper .paper { float:left; width:66%; margin:0% 17% 0% 17%; padding:30% 0% 28% 0%;}
+.warpper .newspaper .paper ul {}
+.warpper .newspaper .paper ul li { float:left; width:33.333%; margin:0; padding:0;}
+.warpper .artist { float:left; width:100%; margin:0;}
+.warpper .community { float:left; width:100%; padding:0% 0% 0% 0%; background-color:#333332;}
+.warpper .community .icon { float:left; width:50%; margin:3% 25%;}
+.warpper .community .icon ul {}
+.warpper .community .icon ul li { float:left; width:33.333%; padding:0% 5%;}
+.warpper .community .text {float: left; width: 100%; padding: 3% 0% 4% 0%; background-color: #333332; color: #000; font-size: 24px; font-weight:bold; font-family:arial, "微軟正黑體"; display: flex; justify-content: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
